@@ -18,12 +18,12 @@ function toggleTheme() {
 
 
 (function () {
-    if (localStorage.getItem("theme") === "light-theme") {
-        setTheme("light-theme");
+    if (localStorage.getItem("theme") === "dark-theme") {
+        setTheme("dark-theme");
         document.getElementById("theme-switch-toggle").checked = true;
 
     } else {
-        setTheme("dark-theme");
-        document.getElementById("theme-switch-toggle") = false;
+        setTheme("light-theme");
+       
     }
 })();
